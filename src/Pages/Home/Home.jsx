@@ -10,8 +10,8 @@ const Home = () => {
                 <p className="text-gray-700">For Equality and Harmony</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 mt-14 md:items-center gap-16 2xl:gap-14">
-                <div className="space-y-2  md:px-14 2xl:px-36 px-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 mt-14 md:items-center ">
+                <div className="space-y-2  md:pl-16 2xl:pl-36 pl-2  border-green-900">
                     <h2 className="text-2xl font-bold ">Our Ethos</h2>
                     <p className="text-gray-700">Samrasta, an intrinsic concept in Indian philosophy, encapsulates the essence of unity, equality, and harmony among all individuals regardless of their social, economic, or cultural backgrounds. It signifies the ideal of social integration, emphasizing the inter-connectedness and interdependence of all beings within society.
                         <br /> <br />
@@ -19,12 +19,12 @@ const Home = () => {
                         <br /><br />
                         In our bid to raise awareness regarding the various problems that women face, and find possible solutions to them, we have started this initiative, called ‘Project Samrasta’, which aims to bridge the gap between the upper classes and the marginalised sections of the society, namely women.</p>
                 </div>
-                <div className="h-[300px] w-[290px] lg:h-[410px] lg:w-[460px]   ">
+                <div className="h-[300px] w-[290px] lg:h-[410px] lg:w-[460px]   border border-red-800 mx-auto">
                     <img className="h-full w-full " src="/banner.png" alt="" />
                 </div>
             </div>
 
-            <div className="space-y-5 mt-16 md:px-14 2xl:px-36 px-2  ">
+            <div className="space-y-5 mt-16 md:pl-16 2xl:pl-36 pl-2  ">
                 <h2 className="text-2xl font-bold">Our Activities</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-28 gap-y-16">
                     <div className="space-y-6">
@@ -33,17 +33,17 @@ const Home = () => {
                             <h2>Interview Series </h2>
                         </div>
                         <div>
-                            <p className="">Conducting interviews with female leaders in various sectors to understand the challenges that they faced in their journey to success, and steps they took to overcome them</p>
+                            <p className=" md:mr-20 lg:mr-24">Conducting interviews with female leaders in various sectors to understand the challenges that they faced in their journey to success, and steps they took to overcome them</p>
                         </div>
                     </div>
                     <div className="space-y-6">
                         <div className="space-y-1">
                             <HiOutlineUserCircle className="h-[20px] w-[20px] 2xl:h-[24px] 2xl:w-[24px] " />
 
-                            <h2>Interview Series </h2>
+                            <h2>Social Media</h2>
                         </div>
-                        <div>
-                            <p className="">Maintaining this website, an Instagram account, posting on social media regularly
+                        <div className="">
+                            <p className=" md:mr-20 lg:mr-28 ">Maintaining this website, an Instagram account, posting on social media regularly
 
 
                             </p>
@@ -56,7 +56,7 @@ const Home = () => {
                             <h2>Fundraising </h2>
                         </div>
                         <div>
-                            <p className=" ">Organising fundraisers to support like education of girls, promotion of vocational learning, and art forms such as dance</p>
+                            <p className=" md:mr-20 lg:mr-24">Organising fundraisers to support like education of girls, promotion of vocational learning, and art forms such as dance</p>
                         </div>
                     </div>
 
@@ -64,10 +64,10 @@ const Home = () => {
                         <div className="space-y-1">
                             <IoCalendarOutline className="h-[20px] w-[20px] 2xl:h-[24px] 2xl:w-[24px] " />
 
-                            <h2>Interview Series </h2>
+                            <h2>Music</h2>
                         </div>
-                        <div>
-                            <p>Using music as a medium to advocate against violence against women in conflict regions</p>
+                        <div className="">
+                            <p className=" md:mr-20 lg:mr-24">Using music as a medium to advocate against violence against women in conflict regions</p>
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@ const Home = () => {
                 </div>
             </div> */}
 
-            <div className=" md:max-w-[700px] lg:max-w-[800px] xl:max-w-[1100px] 2xl:max-w-[1300px] bg-white py-14 mx-auto text-center space-y-2 mb-12 mt-14">
+            <div className=" md:max-w-[700px] lg:max-w-[800px] xl:max-w-[1000px] 2xl:max-w-[1270px] bg-white py-14 mx-auto text-center space-y-2 mb-12 mt-14">
                 <h2 className="text-2xl font-bold">Contact Us</h2>
                 <div className="text-gray-600">
                     <p>gmail- samrastayatra@gmail.com</p>
