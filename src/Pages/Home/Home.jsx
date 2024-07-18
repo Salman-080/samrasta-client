@@ -19,7 +19,7 @@ const Home = () => {
                         <br /><br />
                         In our bid to raise awareness regarding the various problems that women face, and find possible solutions to them, we have started this initiative, called ‘Project Samrasta’, which aims to bridge the gap between the upper classes and the marginalised sections of the society, namely women.</p>
                 </div>
-                <div className="h-[300px] w-[290px] lg:h-[410px] lg:w-[460px]   border border-red-800 mx-auto">
+                <div className="h-[300px] w-[290px] lg:h-[410px] lg:w-[460px]  mx-auto">
                     <img className="h-full w-full " src="/banner.png" alt="" />
                 </div>
             </div>
